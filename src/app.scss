@@ -1,0 +1,23 @@
+.app {
+    height: 100vh;
+    
+    .sections {
+        width: 100%;
+        height: calc(100vh - 70px); //minus the topbar
+        background-color: darkgoldenrod; //just so we can see each sec
+        position: relative;
+        top: 70px;//for topbar
+        scroll-behavior: smooth;
+
+        scroll-snap-type: y mandatory; //mandatory snapping
+        scrollbar-width:  none;// for firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);//each sections size
+            scroll-snap-align: start; //snap to the start of each section
+        }
+    }
+}
