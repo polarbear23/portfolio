@@ -71,7 +71,7 @@ export default function Portfolio() {
         ))}
 
         <div className="wrapper">
-          <a href="#works">
+          <a href="#contact">
             <img src="assets/down.png" alt="" />
           </a>
         </div>

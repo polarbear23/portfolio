@@ -82,12 +82,12 @@ export const gamesPortfolio = [
     id: 1,
     title: "Space Shooter",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "/assets/spaceshooter.gif",
   },
   {
     id: 2,
     title: "Procedural Generated Game",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "/assets/procgame.gif",
   },
 ];
